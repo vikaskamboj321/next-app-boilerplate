@@ -27,9 +27,11 @@
       "@interfaces": ["src/interfaces"],
       "@redux/*": ["src/redux/*"],
       "@redux": ["src/redux"],
-      "@i18n": ["./i18n"]
+      "@i18n": ["./i18n"],
+      "@utils": ["src/utils"],
+      "@utils/*": ["src/utils/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/index.jsx", "pages/_app.jsx"],
   "exclude": ["node_modules"]
 }
